@@ -1,0 +1,35 @@
+# Super Bowl Analytics with Polars - Dependencies
+# Pin versions to ensure reproducibility during live sessions
+
+# Core Data Processing
+polars>=1.0.0
+pyarrow>=14.0.0
+
+# NFL Data Source
+nflreadpy>=0.1.5
+
+# Visualization
+plotly>=5.18.0
+kaleido>=0.2.1  # For static image export
+
+# Machine Learning
+scikit-learn>=1.4.0
+numpy>=1.26.0
+statsmodels>=0.14.0
+
+# LLM for Natural Language Explanations (optional)
+ollama>=0.3.0  # Local LLM server - install Ollama app from https://ollama.ai
+transformers>=4.36.0  # Hugging Face models
+accelerate>=0.25.0  # For efficient model loading
+torch>=2.0.0  # PyTorch backend for transformers
+
+# Jupyter Environment
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+nbformat>=5.9.0
+ipywidgets>=8.1.0  # For interactive Plotly in notebooks
+
+# Development Utilities
+pandas>=2.1.0  # For compatibility with some nflreadpy outputs
+tqdm>=4.66.0  # Progress bars for long operations
+
