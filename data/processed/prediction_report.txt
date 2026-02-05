@@ -1,0 +1,537 @@
+======================================================================
+SUPER BOWL PREDICTION MODEL REPORT
+Model: Gradient Boosting
+======================================================================
+
+MODEL PERFORMANCE
+----------------------------------------
+Overall Accuracy: 100.0%
+Correct Predictions: 23 / 23
+
+FEATURE IMPORTANCE
+----------------------------------------
+  explosive_rate_diff: 38.0%
+  success_rate_diff: 33.2%
+  implied_win_prob: 25.7%
+  spread_line: 3.1%
+  off_epa_diff: 0.0%
+  def_epa_diff: 0.0%
+  pass_epa_diff: 0.0%
+  rush_epa_diff: 0.0%
+  redzone_epa_diff: 0.0%
+  third_down_epa_diff: 0.0%
+  turnover_diff: 0.0%
+  playoff_epa_diff: 0.0%
+  qb_ovr_diff: 0.0%
+  avg_ovr_diff: 0.0%
+  max_ovr_diff: 0.0%
+  total_line: 0.0%
+
+INDIVIDUAL GAME BREAKDOWN
+----------------------------------------
+
+Super Bowl 2000: NYG vs BAL
+  Predicted Winner: BAL (99.8% confident)
+  Actual Winner: BAL
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2003: NE vs CAR
+  Predicted Winner: NE (99.6% confident)
+  Actual Winner: NE
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +99.4 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2004: PHI vs NE
+  Predicted Winner: NE (99.8% confident)
+  Actual Winner: NE
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: -31.2 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: -54.4 pp
+
+Super Bowl 2005: PIT vs SEA
+  Predicted Winner: PIT (99.6% confident)
+  Actual Winner: PIT
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +99.4 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2006: CHI vs IND
+  Predicted Winner: IND (99.8% confident)
+  Actual Winner: IND
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: -99.4 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: -31.2 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: -54.4 pp
+
+Super Bowl 2007: NE vs NYG
+  Predicted Winner: NYG (99.8% confident)
+  Actual Winner: NYG
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2008: ARI vs PIT
+  Predicted Winner: PIT (99.8% confident)
+  Actual Winner: PIT
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2009: IND vs NO
+  Predicted Winner: NO (99.8% confident)
+  Actual Winner: NO
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2010: GB vs PIT
+  Predicted Winner: GB (99.6% confident)
+  Actual Winner: GB
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +99.4 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2011: NE vs NYG
+  Predicted Winner: NYG (99.8% confident)
+  Actual Winner: NYG
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2012: SF vs BAL
+  Predicted Winner: BAL (99.8% confident)
+  Actual Winner: BAL
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2013: DEN vs SEA
+  Predicted Winner: SEA (99.8% confident)
+  Actual Winner: SEA
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2014: SEA vs NE
+  Predicted Winner: NE (99.8% confident)
+  Actual Winner: NE
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2015: DEN vs CAR
+  Predicted Winner: DEN (99.6% confident)
+  Actual Winner: DEN
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2016: ATL vs NE
+  Predicted Winner: NE (99.8% confident)
+  Actual Winner: NE
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2017: NE vs PHI
+  Predicted Winner: PHI (99.8% confident)
+  Actual Winner: PHI
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2018: LA vs NE
+  Predicted Winner: NE (99.8% confident)
+  Actual Winner: NE
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2019: KC vs SF
+  Predicted Winner: KC (99.6% confident)
+  Actual Winner: KC
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +99.4 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2020: TB vs KC
+  Predicted Winner: TB (99.6% confident)
+  Actual Winner: TB
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2021: CIN vs LA
+  Predicted Winner: LA (99.8% confident)
+  Actual Winner: LA
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2022: PHI vs KC
+  Predicted Winner: KC (99.8% confident)
+  Actual Winner: KC
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2023: KC vs SF
+  Predicted Winner: KC (99.6% confident)
+  Actual Winner: KC
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +0.0 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp
+
+Super Bowl 2024: PHI vs KC
+  Predicted Winner: PHI (99.6% confident)
+  Actual Winner: PHI
+  Result: ✓ CORRECT
+  Feature Contributions:
+    - off_epa_diff: +0.0 pp
+    - def_epa_diff: +0.0 pp
+    - pass_epa_diff: +0.0 pp
+    - rush_epa_diff: +0.0 pp
+    - success_rate_diff: +99.4 pp
+    - explosive_rate_diff: +0.0 pp
+    - redzone_epa_diff: +0.0 pp
+    - third_down_epa_diff: +0.0 pp
+    - turnover_diff: +0.0 pp
+    - playoff_epa_diff: +0.0 pp
+    - qb_ovr_diff: +0.0 pp
+    - avg_ovr_diff: +0.0 pp
+    - max_ovr_diff: +0.0 pp
+    - spread_line: +0.0 pp
+    - total_line: +0.0 pp
+    - implied_win_prob: +0.0 pp

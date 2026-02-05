@@ -47,9 +47,9 @@ def load_pbp_cached(
     Parameters
     ----------
     seasons : range, list, or None
-        Seasons to load. Defaults to 2015-2024 for manageable size.
+        Seasons to load. Defaults to 2000-2025 for full coverage.
     cache_path : str, optional
-        Path to cache file. Defaults to data/raw/pbp.parquet
+        Path to cache file. Defaults to data/raw/pbp_slim.parquet
     force_refresh : bool
         If True, re-download even if cache exists.
         
@@ -66,9 +66,10 @@ def load_pbp_cached(
     >>> qb_plays.collect()  # NOW it loads and filters
     """
     if seasons is None:
-        seasons = range(2015, 2025)
+        seasons = range(2000, 2026)
     
-    cache_file = Path(cache_path) if cache_path else CACHE_DIR / "pbp.parquet"
+    # Use slim parquet by default (29MB vs 293MB - optimized for DataCamp)
+    cache_file = Path(cache_path) if cache_path else CACHE_DIR / "pbp_slim.parquet"
     ensure_cache_dir(cache_file.parent)
     
     # Check cache first (unless force refresh)
@@ -76,7 +77,13 @@ def load_pbp_cached(
         print(f"Loading PBP from cache: {cache_file}")
         return pl.scan_parquet(cache_file)
     
-    # Download fresh data
+    # Fallback: try full pbp.parquet if slim doesn't exist
+    full_cache = CACHE_DIR / "pbp.parquet"
+    if full_cache.exists() and not force_refresh:
+        print(f"Loading PBP from cache: {full_cache}")
+        return pl.scan_parquet(full_cache)
+    
+    # Download fresh data (only if no cache exists)
     print(f"Downloading PBP data for seasons {list(seasons)}...")
     print("This may take a few minutes on first run.")
     
@@ -94,10 +101,10 @@ def load_pbp_cached(
     df = _optimize_pbp_types(df)
     
     # Cache to Parquet for fast future loads
-    df.write_parquet(cache_file)
-    print(f"Cached to: {cache_file}")
+    df.write_parquet(full_cache)
+    print(f"Cached to: {full_cache}")
     
-    return pl.scan_parquet(cache_file)
+    return pl.scan_parquet(full_cache)
 
 
 def _optimize_pbp_types(df: pl.DataFrame) -> pl.DataFrame:

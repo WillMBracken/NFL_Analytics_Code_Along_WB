@@ -1,0 +1,17 @@
+feature,importance,importance_pct
+explosive_rate_diff,0.3802777777777776,38.027777777777764
+success_rate_diff,0.3322222222222223,33.222222222222236
+implied_win_prob,0.2565743670551719,25.657436705517195
+spread_line,0.030925632944828106,3.0925632944828108
+off_epa_diff,0.0,0.0
+def_epa_diff,0.0,0.0
+pass_epa_diff,0.0,0.0
+rush_epa_diff,0.0,0.0
+redzone_epa_diff,0.0,0.0
+third_down_epa_diff,0.0,0.0
+turnover_diff,0.0,0.0
+playoff_epa_diff,0.0,0.0
+qb_ovr_diff,0.0,0.0
+avg_ovr_diff,0.0,0.0
+max_ovr_diff,0.0,0.0
+total_line,0.0,0.0
